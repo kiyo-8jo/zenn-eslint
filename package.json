@@ -12,7 +12,7 @@
     "format": "prettier --check \"**/*.{ts,tsx,js,jsx,cjs,mjs,md,json,lintstagedrc,yml,yaml}\" --cache",
     "format:fix": "prettier --write \"**/*.{ts,tsx,js,jsx,cjs,mjs,md,json,lintstagedrc,yml,yaml}\" --cache",
     "prepare": "husky",
-    "typecheck": "npm run typecheck"
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "next": "15.3.2",
