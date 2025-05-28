@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint && npx eslint . --ext .js,.jsx,.ts,.tsx,.mjs",
+    "lint:fix": "next lint --fix &&  npx eslint . --ext .js,.jsx,.ts,.tsx,.mjs --fix"
   },
   "dependencies": {
     "react": "^19.0.0",
